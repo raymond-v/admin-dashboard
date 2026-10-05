@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+#side-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20%;
+    height: 100vh;
+    gap: 10px;
+    background-color: skyblue;
+    align-content: start;
+}
+
+#side-button {
+    border: 0px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    justify-self: start;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.side-button {
+    border: 0px;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    justify-self: start;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-button {
+    color: white;
+}
